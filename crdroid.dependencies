@@ -1,0 +1,26 @@
+[
+	{
+		"repository":	"crdroidandroid/android_kernel_xiaomi_mt6833",
+		"target_path":	"kernel/xiaomi/mt6833"
+	},
+	{
+		"repository":	"xiaomi-mt6833-dev/vendor_xiaomi_everpal",
+		"target_path":	"vendor/xiaomi/everpal"
+	},
+	{
+		"repository":	"crdroidandroid/android_hardware_xiaomi",
+		"target_path":	"hardware/xiaomi"
+	},
+	{
+		"repository":	"crdroidandroid/android_hardware_mediatek",
+		"target_path":	"hardware/mediatek"
+	},
+	{
+		"repository":	"crdroidandroid/android_device_mediatek_sepolicy_vndr",
+		"target_path":	"device/mediatek/sepolicy_vndr"
+	},
+	{
+		"repository":	"techyminati/android_vendor_mediatek_ims",
+		"target_path":	"vendor/mediatek/ims"
+	},
+]
