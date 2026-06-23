@@ -4,7 +4,7 @@
 		"target_path":	"kernel/xiaomi/mt6833"
 	},
 	{
-		"repository":	"xiaomi-mt6833-dev/vendor_xiaomi_everpal",
+		"repository":	"crdroidandroid/proprietary_vendor_xiaomi_everpal",
 		"target_path":	"vendor/xiaomi/everpal"
 	},
 	{
@@ -20,7 +20,17 @@
 		"target_path":	"device/mediatek/sepolicy_vndr"
 	},
 	{
-		"repository":	"techyminati/android_vendor_mediatek_ims",
+		"repository":	"crdroidandroid/android_vendor_mediatek_ims",
 		"target_path":	"vendor/mediatek/ims"
 	},
+	{
+		"repository":   "crdroidandroid/android_hardware_dolby"
+		"branch":	"sony-1.5"
+		"target_path":  "hardware/dolby"
+	}
+	{ 
+		"repository":   "crdroidandroid/android_packages_apps_LunarisDolby"
+		"target_path":  "packages/apps/LunarisDolby"
+	}
+
 ]
