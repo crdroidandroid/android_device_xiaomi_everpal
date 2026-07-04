@@ -27,7 +27,7 @@
 		"repository":   "crdroidandroid/android_hardware_dolby",
 		"branch":	"sony-1.5",
 		"target_path":  "hardware/dolby"
-	}
+	},
 	{ 
 		"repository":   "crdroidandroid/android_packages_apps_LunarisDolby",
 		"target_path":  "packages/apps/LunarisDolby"
