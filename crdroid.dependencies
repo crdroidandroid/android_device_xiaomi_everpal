@@ -1,0 +1,36 @@
+[
+	{
+		"repository":	"crdroidandroid/android_kernel_xiaomi_mt6833",
+		"target_path":	"kernel/xiaomi/mt6833"
+	},
+	{
+		"repository":	"crdroidandroid/proprietary_vendor_xiaomi_everpal",
+		"target_path":	"vendor/xiaomi/everpal"
+	},
+	{
+		"repository":	"lineageos/android_hardware_xiaomi",
+		"branch":       "lineage-24.0",
+		"target_path":	"hardware/xiaomi"
+	},
+	{
+		"repository":	"lineageos/android_hardware_mediatek",
+		"branch":       "lineage-24.0",
+		"target_path":	"hardware/mediatek"
+	},
+	{
+		"repository":	"lineageos/android_device_mediatek_sepolicy_vndr",
+		"branch":       "lineage-24.0",
+		"target_path":	"device/mediatek/sepolicy_vndr"
+	},
+	{
+		"repository":	"crdroidandroid/android_vendor_mediatek_ims",
+		"branch":       "17.0",
+		"target_path":	"vendor/mediatek/ims"
+	},
+	{ 
+		"repository":   "crdroidandroid/android_hardware_dolby",
+		"branch":       "17.0-everpal",
+		"target_path":  "hardware/dolby"
+	}
+
+]
