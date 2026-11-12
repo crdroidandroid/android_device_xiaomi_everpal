@@ -13,6 +13,13 @@ $(call inherit-product, device/xiaomi/everpal/device.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
+TARGET_SUPPORTS_QUICK_TAP := true
+TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_SUPPORTS_BLUR := true
+TARGET_DISABLE_MATLOG := true
+# Enable MTK GED KPI
+$(call soong_config_set_bool,libgui,support_mtk_ged_kpi,true)
+
 # Device identifier. This must come after all inclusions
 PRODUCT_NAME := lineage_everpal
 PRODUCT_DEVICE := everpal
